@@ -45,10 +45,16 @@ int main() {
     else
         cout << "Grade: F" << endl;
 
-    if (percentage >= 40)
+    if (maths >= 40 && physics >= 40 && chemistry >= 40 &&
+        english >= 40 && computer >= 40) {
         cout << "Result: PASS" << endl;
-    else
+    } else {
         cout << "Result: FAIL" << endl;
+        cout << "Reason: Minimum 40 marks required in every subject." << endl;
+    }
 
     return 0;
 }
+
+    
+    
