@@ -29,4 +29,21 @@ The program takes marks of five subjects from the user, calculates the total and
 
 ## 👩‍💻 Author
 
+## 💻 Sample Output
+
+```text
+Enter student name: Riya
+Enter marks in Maths: 85
+Enter marks in Physics: 78
+Enter marks in Chemistry: 82
+Enter marks in English: 90
+Enter marks in Computer: 88
+
+----- Student Result -----
+Name: Riya
+Total Marks: 423/500
+Percentage: 84.6%
+Grade: A
+Result: PASS'''
+
 Riya Raj
